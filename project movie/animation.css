@@ -1,0 +1,18 @@
+#poster{
+    animation: poster 0.5s;
+}
+@keyframes poster{
+    0%{
+        transform: translatey(260px);
+        opacity: 0%;
+    }
+    50%{
+        opacity: 0%;
+    }
+    100%{
+        transform: translatey(0);
+        opacity: 100%;
+    }
+}
+
+
